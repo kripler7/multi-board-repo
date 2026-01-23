@@ -33,6 +33,13 @@
 	                   ;
     };
 };
+
+/ {
+    chosen {
+        zmk,underglow = &led_strip;
+    };
+};
+
 &spi3 {
     compatible = "nordic,nrf-spim";
     status = "okay";
