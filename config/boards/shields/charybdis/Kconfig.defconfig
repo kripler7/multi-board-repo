@@ -1,19 +1,10 @@
-if SHIELD_charybdis_RIGHT
+if SHIELD_charybdis_LEFT
 
 config ZMK_KEYBOARD_NAME
 	default "charybdis"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
-
-endif
-
-if SHIELD_charybdis_LEFT || SHIELD_charybdis_RIGHT
-
-config ZMK_SPLIT
-	default y
-
-
 
 endif
 
