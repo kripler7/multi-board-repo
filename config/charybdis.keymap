@@ -147,7 +147,7 @@
 &kp Q           &kp W             &kp F        &kp P           &kp B    &kp J        &kp L            &kp U            &kp Y              &mt COLON SEMI
 &kp A           &mt LEFT_SHIFT R  &mt LCTRL S  &mt LEFT_ALT T  &kp G    &kp M        &mt RIGHT_ALT N  &mt RCTRL E      &mt RIGHT_SHIFT I  &kp O
 &mt LEFT_WIN Z  &kp X             &kp C        &kp D           &kp V    &kp K        &kp H            &kp COMMA        &kp DOT            &mt QUESTION SLASH
-                                  &kp LG(TAB)  &lt 3 TAB       &to 1    &lt 1 SPACE  &kp BACKSPACE    &mt LC(V) LC(C)
+                                  &kp LG(TAB)  &lt 3 TAB       &lt 1 SPACE    &lt 1 SPACE  &kp BACKSPACE    &mt LC(V) LC(C)
             >;
 
             label = "colemak_dh";
