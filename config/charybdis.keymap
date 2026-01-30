@@ -144,9 +144,9 @@
 
         colemak_dh {
             bindings = <
-&kp Q           &kp W             &kp F        &kp P           &kp B    &kp J        &kp L            &kp U            &kp Y              &mt COLON SEMI
-&kp A           &mt LEFT_SHIFT R  &mt LCTRL S  &mt LEFT_ALT T  &kp G    &kp M        &mt RIGHT_ALT N  &mt RCTRL E      &mt RIGHT_SHIFT I  &kp O
-&mt LEFT_WIN Z  &kp X             &kp C        &kp D           &kp V    &kp K        &kp H            &kp COMMA        &kp DOT            &mt QUESTION SLASH
+&kp Q           &kp W             &kp F        &kp P           &kp B          &kp J        &kp L            &kp U            &kp Y              &mt COLON SEMI
+&kp A           &mt LEFT_SHIFT R  &mt LCTRL S  &mt LEFT_ALT T  &kp G          &kp M        &mt RIGHT_ALT N  &mt RCTRL E      &mt RIGHT_SHIFT I  &kp O
+&mt LEFT_WIN Z  &kp X             &kp C        &kp D           &kp V          &kp K        &kp H            &kp COMMA        &kp DOT            &mt QUESTION SLASH
                                   &kp LG(TAB)  &lt 3 TAB       &lt 1 SPACE    &lt 1 SPACE  &kp BACKSPACE    &mt LC(V) LC(C)
             >;
 
@@ -156,10 +156,10 @@
         arrow_numbers {
             label = "1";
             bindings = <
-&mt EXCLAMATION NUMBER_1     &mt AT_SIGN NUMBER_2           &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8  &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0
-&mt UNDERSCORE MINUS         &mt PLUS EQUAL                 &none              &none                &none                   &none               &kp PAGE_UP             &kp UP_ARROW           &kp PAGE_DOWN                  &mt DOUBLE_QUOTES SQT
-&mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &none              &none                &none                   &kp HOME            &kp LEFT_ARROW          &kp DOWN               &kp RIGHT_ARROW                &kp END
-                                                            &none              &none                &none                   &none               &none                   &none
+&mt EXCLAMATION NUMBER_1     &mt AT_SIGN NUMBER_2           &mt HASH NUMBER_3  &mt DOLLAR NUMBER_4  &mt PERCENT NUMBER_5    &mt CARET NUMBER_6  &mt AMPERSAND NUMBER_7  &mt ASTERISK NUMBER_8    &mt LEFT_PARENTHESIS NUMBER_9  &mt RIGHT_PARENTHESIS NUMBER_0
+&mt UNDERSCORE MINUS         &mt PLUS EQUAL                 &none              &none                &none                   &none               &kp PAGE_UP             &kp UP_ARROW             &kp PAGE_DOWN                  &mt DOUBLE_QUOTES SQT
+&mt LEFT_BRACE LEFT_BRACKET  &mt RIGHT_BRACE RIGHT_BRACKET  &none              &none                &none                   &kp HOME            &kp LEFT_ARROW          &kp DOWN                 &kp RIGHT_ARROW                &kp END
+                                                            &none              &none                &none                   &none               &none                   &mt LC(LS(V)) LC(LS(C))
             >;
         };
 
